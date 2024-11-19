@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Healthcare Dashboard 🏥
+A sleek and interactive healthcare dashboard built with Next.js, offering real-time analytics, patient management, and comprehensive healthcare metrics visualization.
 
-## Getting Started
+## 📱 Screenshots
+1. Landing Page
+![Dashboard Screenshot](public/landing%20page.png)
+![Dashboard Screenshot](public/landing%20page2.png)
 
-First, run the development server:
+2. Analytics Page
+![Analytics Screenshot](public/Dashboard_preview.png)
 
+3. Patient Management
+![Patient Management Screenshot](public/Form.png)
+
+## 🎥 Demo
+[Watch Demo Video](https://youtu.be/PX6JSDVq0SY)
+
+## 🌟 Features
+- Real-time patient analytics
+- Interactive data visualization
+- Patient management system
+- Revenue tracking
+- Responsive design
+- Modern UI/UX
+- Animated transitions
+
+## 🛠️ Built With
+- **Next.js 14** - React Framework
+- **TypeScript** - Type Safety
+- **Tailwind CSS** - Styling
+- **Shadcn/UI** - UI Components
+- **Framer Motion** - Animations
+- **Recharts** - Data Visualization
+- **Lucide Icons** - Icons
+- **React Hook Form** - Form Handling
+- **Zod** - Form Validation
+
+## Tools Used
+- **Figma** - Design
+- **VS Code** - Code Editor
+- **Git** - Version Control
+- **GitHub** - Code Hosting
+- **npm** - Package Manager
+
+
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm/yarn/pnpm
+
+### Installation
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/healthcare-dashboard.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory
+```bash
+cd healthcare-dashboard
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Install dependencies
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open your browser and visit `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
+```
+healthcare-dashboard/
+├── app/
+│   ├── dashboard/
+│   │   └── page.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   ├── dashboard/
+│   └── layout/
+├── lib/
+└── styles/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration
+```bash
+{
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "framer-motion": "^10.x",
+    "recharts": "^2.x",
+    "@shadcn/ui": "^0.x"
+  }
+}
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🤝 Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+6. Wait for the review and merge
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
